@@ -1,0 +1,42 @@
+include<stdio.h>
+
+int main()
+
+
+
+//Declaring variables
+
+float amount, percentage, discounted_amt, final_amt;
+
+//Taking orginal amount from user
+
+ printf("Enter the orignal amount:\n");
+
+ scanf("%f", Camount);10
+
+//Taking discount percentage from user12
+
+printf("Enter the discount percentage:\n");
+
+scanf("%f", @percentage);14
+
+
+
+//Calculatingdiscounted amount and final ount
+
+
+
+discounted_amtamount-(amount
+
+percentage)/100;17 printf("This is the final discount amount:%.2f \n", discounted_amt);
+
+
+
+final_amt = amount-discounted_amt;20
+ //Printing output
+
+printf("this is the final item amount:%.2f \n",final_amt);23
+
+
+
+return 0;
