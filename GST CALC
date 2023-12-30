@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+
+ float amount,gst, tamount;//Declaring Variables
+
+printf("Please enter the amount: \n");
+scanf("%f",&amount);
+
+printf("Please enter the GST Percentage");// Taking GST % from
+scanf("%f",&gst);
+
+
+float GSTamount = (amount * gst)/100;//Calculations
+ tamount = amount + GSTamount;
+
+
+printf("The final amount after adding GST is %f:", tamount);
+
+return 0; 
+}
