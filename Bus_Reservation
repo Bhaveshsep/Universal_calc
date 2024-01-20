@@ -1,0 +1,39 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Declare variables to store user information
+    char Name[100], Source[100], Destination[100];
+    int totseat, fare = 600;
+
+    // Welcome message
+    printf("Welcome to Chartered Bus Services");
+
+    // Input the source city
+    printf("\nEnter the source city: ");
+    scanf("%s", Source);
+
+    // Input the destination city
+    printf("\nEnter the Destination city: ");
+    scanf("%s", Destination);
+
+    // Input the number of seats
+    printf("\nEnter the Number of seats: ");
+    scanf("%d", &totseat);
+
+    // Calculate total fare
+    int totfare = fare * totseat;
+
+    // Input user's name
+    printf("\nEnter your Name: ");
+    scanf("%s", Name);
+
+    // Display user information
+    printf("\nYour source city is %s", Source);
+    printf("\nYour destination is %s", Destination);
+    printf("\nYour Name is %s", Name);
+    printf("\nNumber of seats is %d ", totseat);
+    printf("\nYour total amount is %d ", totfare);
+
+    return 0;
+}
