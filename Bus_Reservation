@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+// Program for Bus seat Reservation
 #include <stdio.h>
 
 int main() {
